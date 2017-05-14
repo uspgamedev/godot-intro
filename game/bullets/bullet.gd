@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-const SPEED_FACTOR = 256
+const SPEED_FACTOR = 1024
 
 var dead = false
 

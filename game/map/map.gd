@@ -1,6 +1,6 @@
 extends YSort
 
-const TOWER = preload("res://towers/base.tscn")
+const TOWER = preload("res://towers/tower.tscn")
 
 func _ready():
 	set_process_input(true)

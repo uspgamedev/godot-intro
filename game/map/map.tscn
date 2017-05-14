@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=1]
 
-[ext_resource path="res://map/main.gd" type="Script" id=1]
+[ext_resource path="res://map/map.gd" type="Script" id=1]
 [ext_resource path="res://map/spawner.tscn" type="PackedScene" id=2]
-[ext_resource path="res://monsters/base.tscn" type="PackedScene" id=3]
+[ext_resource path="res://monsters/monster.tscn" type="PackedScene" id=3]
 [ext_resource path="res://map/DST-TowerDefenseTheme.ogg" type="AudioStream" id=4]
 
 [node name="Map" type="YSort"]

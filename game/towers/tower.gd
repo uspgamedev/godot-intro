@@ -1,6 +1,6 @@
 extends StaticBody2D
 
-const BULLET = preload("res://bullets/base.tscn")
+const BULLET = preload("res://bullets/bullet.tscn")
 
 func _ready():
 	pass
