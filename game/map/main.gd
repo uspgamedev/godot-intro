@@ -1,4 +1,4 @@
-extends Node2D
+extends YSort
 
 const TOWER = preload("res://towers/base.tscn")
 
