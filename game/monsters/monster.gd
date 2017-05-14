@@ -1,0 +1,11 @@
+extends KinematicBody2D
+
+const SPEED_FACTOR = 64
+
+export(int) var speed = 1
+
+func _ready():
+	set_fixed_process(true)
+
+func _fixed_process(delta):
+	move(Vector2(-1,0) * speed * SPEED_FACTOR * delta)

@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://map/main.gd" type="Script" id=1]
+[ext_resource path="res://map/spawner.tscn" type="PackedScene" id=2]
+[ext_resource path="res://monsters/base.tscn" type="PackedScene" id=3]
+
+[node name="Map" type="Node2D"]
+
+transform/scale = Vector2( 4, 4 )
+script/script = ExtResource( 1 )
+
+[node name="Spawner" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 277.516, 42.1716 )
+monster_scene = ExtResource( 3 )
+
+[node name="Spawner1" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 282.278, 54.0749 )
+monster_scene = ExtResource( 3 )
+
+[node name="Spawner2" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 281.938, 82.6427 )
+monster_scene = ExtResource( 3 )
+
+[node name="Spawner3" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 282.618, 103.729 )
+monster_scene = ExtResource( 3 )
+
+
