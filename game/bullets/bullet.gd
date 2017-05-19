@@ -13,6 +13,7 @@ func _fixed_process(delta):
 	move(Vector2(1,0) * speed * SPEED_FACTOR * delta)
 
 func _hit( body ):
+	# Alternative: groups
 	if not dead and body extends preload("res://monsters/monster.gd"):
 		dead = true
 		body.queue_free()
