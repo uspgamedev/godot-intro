@@ -6,7 +6,11 @@ path="res://.import/spritesheet.png-59f7dfdebfc035c80a63445e3bd8a9bd.stex"
 
 [deps]
 
+source_file="res://spritesheet.png"
 source_md5="59c799efc0f2a80d529ecf57aadc49ee"
+
+dest_files=[ "res://.import/spritesheet.png-59f7dfdebfc035c80a63445e3bd8a9bd.stex" ]
+dest_md5="8b9e6d8a436ab739bfd31ec66b58fa29"
 
 [params]
 

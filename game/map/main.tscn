@@ -6,7 +6,7 @@
 
 scale = Vector2( 4, 4 )
 
-[node name="HornedChomper" parent="." instance=ExtResource( 1 )]
+[node name="HornedChomper" parent="." index="0" instance=ExtResource( 1 )]
 
 position = Vector2( 174.266, 82.4049 )
 
