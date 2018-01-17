@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://enemies/hornedchomper/hornedchomper.gd" type="Script" id=1]
 [ext_resource path="res://spritesheet.png" type="Texture" id=2]
@@ -21,6 +21,11 @@ tracks/0/keys = {
 "update": 1,
 "values": [ 0, 1 ]
 }
+
+[sub_resource type="CircleShape2D" id=2]
+
+custom_solver_bias = 0.0
+radius = 6.07262
 
 [node name="HornedChomper" type="KinematicBody2D" index="0"]
 
@@ -47,5 +52,9 @@ playback_speed = 1.0
 anims/chomp-left = SubResource( 1 )
 blend_times = [  ]
 autoplay = "chomp-left"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="2"]
+
+shape = SubResource( 2 )
 
 
