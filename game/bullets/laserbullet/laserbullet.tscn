@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://bullets/laserbullet.gd" type="Script" id=1]
+[ext_resource path="res://bullets/laserbullet/laserbullet.gd" type="Script" id=1]
 [ext_resource path="res://spritesheet.png" type="Texture" id=2]
 
 [node name="LaserBullet" type="KinematicBody2D"]
