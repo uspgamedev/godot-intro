@@ -20,6 +20,7 @@ Godot.
 12. Add bullet
 13. Make tower shoot bullets
 14. Make bullets kill monsters
+15. Make bullets die after some time
 15. Add monster spawner
 16. Place towers with mouse
 17. Project settings: input map
