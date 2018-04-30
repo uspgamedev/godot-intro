@@ -51,7 +51,6 @@ playback_default_blend_time = 0.0
 playback_speed = 1.0
 anims/chomp-left = SubResource( 1 )
 blend_times = [  ]
-autoplay = "chomp-left"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="2"]
 

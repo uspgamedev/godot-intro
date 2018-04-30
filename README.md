@@ -10,19 +10,20 @@ Godot.
 2. Add monster
 3. Project settings: main scene, background color
 4. Scale root
-5. Branch monster into separate scene
-6. Add animation
+5. Import settings: remove filter
+6. Make monster move
 7. Add more monsters
-8. Make monster move
-9. Add tower
-10. Make monster and tower collide
-11. Add bullet
-12. Make tower shoot bullets
-13. Make bullets kill monsters
-14. Add monster spawner
-15. Place towers with mouse
-16. Project settings: input map
-17. Add BGM
+8. Branch monster into separate scene
+9. Add animation
+10. Add tower
+11. Make monster and tower collide
+12. Add bullet
+13. Make tower shoot bullets
+14. Make bullets kill monsters
+15. Add monster spawner
+16. Place towers with mouse
+17. Project settings: input map
+18. Add BGM
 
 ## Suggested exercises
 
