@@ -5,3 +5,4 @@ func _physics_process(delta):
 
 func _on_target_hit(body):
 	body.queue_free()
+	queue_free()
