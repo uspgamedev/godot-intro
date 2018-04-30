@@ -24,6 +24,7 @@ Godot.
 15. Add monster spawner
 16. Place towers with mouse (with input map)
 17. Add BGM
+18. Export game
 
 ## Suggested exercises
 
