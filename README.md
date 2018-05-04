@@ -6,6 +6,7 @@ Godot.
 
 ## Suggested steps
 
+0. Download and "install" Godot
 1. New project
 2. Add monster
 3. Project settings: main scene, background color, pixel snap
