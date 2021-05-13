@@ -16,6 +16,10 @@ Use either Steam (auto-updates) or download directly from official website
 Choose GLES 2 so we can export for WEB later on. For better graphics, use
 GLES 3 instead.
 
+If you are using git, remember to set up a gitignore!
+[gitignore.io](https://gitignore.io) auto-generates gitignore files for Godot
+;)
+
 ### 2. Add monster
 
 **Step 1**. Understand the interface. Adjust layout as preferred.
@@ -40,6 +44,9 @@ this scen is the one to start the game with when you export it.
 
 **Step 4**. Export to your platform. You may need to download the tempalte,
 which takes a while!
+
+**Step 5**. Add a `.gdignore` file to build folder. Also update you gitignore
+if relevant.
 
 ### 4. Small adjustments
 
