@@ -4,31 +4,19 @@
 [ext_resource path="res://map/DST-TowerDefenseTheme.ogg" type="AudioStream" id=2]
 [ext_resource path="res://map/monsterspawner.tscn" type="PackedScene" id=3]
 
-[node name="Main" type="YSort" index="0"]
-
+[node name="Main" type="YSort"]
 scale = Vector2( 4, 4 )
-sort_enabled = true
 script = ExtResource( 1 )
-_sections_unfolded = [ "Transform" ]
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="0"]
-
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 2 )
-volume_db = 0.0
 autoplay = true
-mix_target = 0
-bus = "Master"
 
-[node name="MonsterSpawner" parent="." index="1" instance=ExtResource( 3 )]
-
+[node name="MonsterSpawner" parent="." instance=ExtResource( 3 )]
 position = Vector2( 192.5, 45 )
 
-[node name="MonsterSpawner2" parent="." index="2" instance=ExtResource( 3 )]
-
+[node name="MonsterSpawner2" parent="." instance=ExtResource( 3 )]
 position = Vector2( 202.5, 67.5 )
 
-[node name="MonsterSpawner3" parent="." index="3" instance=ExtResource( 3 )]
-
+[node name="MonsterSpawner3" parent="." instance=ExtResource( 3 )]
 position = Vector2( 192.5, 90 )
-
-

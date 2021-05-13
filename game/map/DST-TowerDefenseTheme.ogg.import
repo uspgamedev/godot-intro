@@ -7,10 +7,7 @@ path="res://.import/DST-TowerDefenseTheme.ogg-5b5a59d9e0b4971c3c266ec9919254e6.o
 [deps]
 
 source_file="res://map/DST-TowerDefenseTheme.ogg"
-source_md5="3111681b274aa8d9a141c12115465f09"
-
 dest_files=[ "res://.import/DST-TowerDefenseTheme.ogg-5b5a59d9e0b4971c3c266ec9919254e6.oggstr" ]
-dest_md5="a0d17a44e60537e27a15ccba5a944f16"
 
 [params]
 
