@@ -6,12 +6,12 @@ Godot.
 
 ## Suggested steps
 
-### 0. Download and "install" Godot
+### (0) Download and "install" Godot
 
 Use either Steam (auto-updates) or download directly from official website
 (simply unzip and run it).
 
-### 1. New project
+### (1) New project
 
 Choose GLES 2 so we can export for WEB later on. For better graphics, use
 GLES 3 instead.
@@ -20,7 +20,7 @@ If you are using git, remember to set up a gitignore!
 [gitignore.io](https://gitignore.io) auto-generates gitignore files for Godot
 ;)
 
-### 2. Add monster
+### (2) Add monster
 
 **Step 1**. Understand the interface. Adjust layout as preferred.
 
@@ -33,7 +33,7 @@ after every possible step).
 **Step 4**. Edit sprite node in Inspector tab so that only the first frame
 shows. Rename monster node to "Monster".
 
-### 3. Project settings and exporting
+### (3) Project settings and exporting
 
 **Step 1**. Set the main scene in Application -> Run. This tells Godot that
 this scen is the one to start the game with when you export it.
@@ -48,14 +48,14 @@ which takes a while!
 **Step 5**. Add a `.gdignore` file to build folder. Also update you gitignore
 if relevant.
 
-### 4. Small adjustments
+### (4) Small adjustments
 
 **Step 1**. Scale root 4-fold so the sprite becomes more visible.
 
 **Step 2**. Fix blurry image by selecting the spritesheet and disabling the
 linear filter in the Import tab.
 
-### 5. Make monster move
+### (5) Make monster move
 
 **Step 1**. Add script to monster node.
 
