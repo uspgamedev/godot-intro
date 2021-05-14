@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://monster/Monster.gd" type="Script" id=1]
+[ext_resource path="res://assets/spritesheet.png" type="Texture" id=2]
+
+[sub_resource type="Animation" id=1]
+resource_name = "chomping"
+length = 0.4
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("./Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 0, 1 ]
+}
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 6.0
+
+[node name="Monster" type="KinematicBody2D" groups=[
+"monster",
+]]
+script = ExtResource( 1 )
+speed = 50
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "chomping"
+anims/chomping = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+offset = Vector2( 0, -4 )
+hframes = 10
+vframes = 10
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, -3 )
+shape = SubResource( 2 )

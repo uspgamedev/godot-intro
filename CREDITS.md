@@ -1,10 +1,13 @@
 
-## Tower Defense Theme
+## "hold the line" Theme by bart
 
-By DST
+Licensed under Creative Commons CC-BY 3.0
 
-Public Domain
+Obtained from https://opengameart.org/content/hold-line-lospec-mix
 
-Obtained from:
-https://opengameart.org/content/tower-defense-theme
+## "Shoot Melon", "Explosion", and "Cannon" by The Chayed
+
+Licensed under Creative Commons CC-BY 3.0
+
+Obtained from https://opengameart.org/content/byte-man-sfx-1
 
